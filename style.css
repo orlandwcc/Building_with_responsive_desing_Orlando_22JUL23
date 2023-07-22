@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+/* reset CSS "star" */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    box-sizing: border-box;
+
+    --gray-color: #e4e4e4;
+    --gray-two: #ccc;
+    --gray-three: #333;
+    --gray-four: #aaa;
+    --black-one:#131313;
+    --black-two: #42424210;
+    --transparent-white: #fff0; 
+    --orange-color: #e43500;
+    --orange-two: #f42;
+    --orange-three: rgba(255, 68, 34, 0.08);
+    --orange_four: #fffaf8;
+    --ubuntu-font: 'Ubuntu', sans-serif;
+}
+
+*,
+::before,
+::after{
+    box-sizing: inherit;
+}
+/* reset CSS "end" */
